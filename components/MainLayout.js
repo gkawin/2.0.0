@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import reactbkk from '../resources/reactbkk.svg'
 
 const ga = `
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -15,6 +16,10 @@ export default function MainLayout ({ children }) {
     <div>
       <Head>
         <title>React Bangkok 2.0.0</title>
+        <link rel='apple-touch-icon' href={reactbkk} />
+        <link rel='apple-touch-startup-image' href={reactbkk} />
+        <meta name='apple-mobile-web-app-title' content='React 2.0.0' />
+        <meta name='apple-mobile-web-app-capable' content='yes' />
         <meta
           name='viewport'
           content='width=device-width, initial-scale=1.0'
