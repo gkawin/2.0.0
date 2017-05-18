@@ -18,7 +18,7 @@ export default function MainLayout ({ children }) {
         <title>React Bangkok 2.0.0</title>
         <link rel='apple-touch-icon' href={reactbkk} />
         <link rel='apple-touch-startup-image' href={reactbkk} />
-        <meta name='apple-mobile-web-app-title' content='React 2.0.0' />
+        <meta name='apple-mobile-web-app-title' content='React Bangkok 2.0' />
         <meta name='apple-mobile-web-app-capable' content='yes' />
         <meta
           name='viewport'
